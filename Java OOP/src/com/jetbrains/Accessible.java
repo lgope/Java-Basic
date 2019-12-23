@@ -1,0 +1,19 @@
+package com.jetbrains;
+
+public interface Accessible {
+
+//    Challenge:
+//    In the following declaration, what is the visibility of:
+//
+//    1. the Accessible interface?
+//    2. the int variable SOME_CONSTANT?
+//    3. methodA?
+//    4. methodB and methodC?
+//
+//    Hint: think back to the lecture on interface before answering.
+
+    int SOME_CONSTANT = 100;
+    public void methodA();
+    void methodB();
+    boolean methodC();
+}
